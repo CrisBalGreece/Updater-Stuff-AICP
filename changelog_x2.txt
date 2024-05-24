@@ -1,7 +1,9 @@
 ====================
-     05-23-2024
+     05-24-2024
 ====================
-* 2024.03.23 LeEco X82x/X910
+
+
+LeEco X82x/X910
 # Device LeMax2 | MaxPlus | Changelog | Fixes
 
 - Import platform security patches - 'android-security'
@@ -11,7 +13,82 @@
 - Add power.stats to satisfy FCM
 - Kernel changes for MaxPlus Sharp panel
 - Spoofed for MicroG
+- Updater workaround
 - Added config for unlimited Gphotos by default
 - Small system fixes here and there...
 
+====================
+     05-23-2024
+====================
+
+
+Test Updater x2 build
+
+====================
+     05-22-2024
+====================
+
+
+   * frameworks/base
+cfd74877 Prioritize system toasts
+
+====================
+     05-21-2024
+====================
+
+
+   * external/hosts
+7dc5651 Release 3.14.73
+
+====================
+     05-20-2024
+====================
+
+
+====================
+     05-19-2024
+====================
+
+
+====================
+     05-18-2024
+====================
+
+
+====================
+     05-17-2024
+====================
+
+
+====================
+     05-16-2024
+====================
+
+
+   * packages/apps/Aperture
+ba4d61e Automatic translation import
+
+   * packages/apps/Camera2
+e290e9e Automatic translation import
+
+   * packages/apps/DeskClock
+b8e55fa Automatic translation import
+
+   * packages/apps/DocumentsUI
+0458482 Automatic translation import
+
+   * packages/apps/Etar
+8fe2cb3 Automatic translation import
+
+   * packages/apps/Jelly
+45174a2 Automatic translation import
+
+   * packages/inputmethods/LatinIME
+808f4f3 Automatic translation import
+
+   * vendor/qcom/opensource/fm-commonsys
+3828520 Automatic translation import
+
+====================
+     05-15-2024
 ====================

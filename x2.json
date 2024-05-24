@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1716493555,
-      "filename": "aicp_x2_t-18.0-UNOFFICIAL-20240523.zip",
-      "id": "ffbde4fff2186444ca6a818e3e1aa1645f35b49f4cc2923735a76faa5a6a7144",
+      "datetime": 1716545830,
+      "filename": "aicp_x2_t-18.0-UNOFFICIAL-20240524.zip",
+      "id": "01594cdc83d90b462efddb4e36932c0e62ec894a015028e3abf8f402161db4b5",
       "romtype": "Unofficial",
-      "size": 893702976,
-      "url": "https://sourceforge.net/projects/aicp-10-x2/files/x2/aicp_x2_t-18.0-UNOFFICIAL-20240523.zip/download",
+      "size": 893698958,
+      "url": "https://sourceforge.net/projects/aicp-10-x2/files/x2/aicp_x2_t-18.0-UNOFFICIAL-20240524.zip/download",
       "version": "18.0"
     }
   ]
