@@ -1,21 +1,46 @@
 ====================
-     05-24-2024
+     06-24-2024
 ====================
 
 
 LeEco X82x/X910
 # Device LeMax2 | MaxPlus | Changelog | Fixes
 
-- Import platform security patches - 'android-security'
-- MaxPlus Unifications - implements
-- Bring back mock hidl power stats
-- Label perf 2.0
-- Add power.stats to satisfy FCM
-- Kernel changes for MaxPlus Sharp panel
-- Spoofed for MicroG
-- Updater workaround
-- Added config for unlimited Gphotos by default
+- Import June platform security patches - 'android-security'
+- Return back to our FP
+- Update changelog and configs
+- Nuke fp cleanup
+- WiFiOverlay configs for UA region
+- Small Kernel changes
+- Small thermal fixes
 - Small system fixes here and there...
+
+
+====================
+     06-23-2024
+====================
+
+
+====================
+     06-22-2024
+====================
+
+
+   * external/hosts
+05a9ae6 Release 3.14.80
+
+====================
+     06-21-2024
+====================
+
+
+   * build/make
+1015a33 Bump Security String to 2024-06-05
+
+====================
+     06-20-2024
+====================
+
 
 ====================
      05-23-2024
@@ -89,6 +114,4 @@ b8e55fa Automatic translation import
    * vendor/qcom/opensource/fm-commonsys
 3828520 Automatic translation import
 
-====================
-     05-15-2024
-====================
+
