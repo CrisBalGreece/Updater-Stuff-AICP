@@ -1,117 +1,78 @@
 ====================
-     06-24-2024
+    29-09-2024     
 ====================
 
+# AICP/LineageOS 20.0 - Platform | Source Changelog
 
-LeEco X82x/X910
+fixup!^2 BatteryMeterView: Hide icon on battery-less devices
+2024-09-28 08:43 UTC (android_frameworks_base)
+3 days ago
+Disable OMX for 64b_only devices.
+2024-09-25 00:53 UTC (android_build)
+4 days ago
+Silence most cast receiver logging
+2024-09-23 22:55 UTC (android_device_lineage_atv)
+15 days ago
+Bump Security String to 2024-09-05
+2024-09-13 15:24 UTC (android_build)
+15 days ago
+Allow system_server to call IKeystoreMaintenance.deleteAllKeys()
+2024-09-13 15:23 UTC (android_system_sepolicy)
+15 days ago
+Resolve cross-user image exploit for conference status hints
+2024-09-13 15:22 UTC (android_packages_services_Telecomm)
+15 days ago
+Unbind CallScreeningService when timeout reached.
+2024-09-13 15:22 UTC (android_packages_services_Telecomm)
+15 days ago
+DO NOT MERGE Unbind CS if connection is not created within 15 seconds.
+2024-09-13 15:22 UTC (android_packages_services_Telecomm)
+15 days ago
+RESTRICT AUTOMERGE Fix to restrict admin from granting permission to a sensor permission group
+2024-09-13 15:22 UTC (android_packages_modules_Permission)
+15 days ago
+Disallow connect with key length downgrade
+2024-09-13 15:21 UTC (android_packages_modules_Bluetooth)
+15 days ago
+Disallow connect with Secure Connections downgrade
+2024-09-13 15:21 UTC (android_packages_modules_Bluetooth)
+15 days ago
+Add support for checking security downgrade
+2024-09-13 15:21 UTC (android_packages_modules_Bluetooth)
+15 days ago
+Replace getCallingActivity() with getLaunchedFromPackage()
+2024-09-13 15:12 UTC (android_packages_apps_Settings)
+15 days ago
+RESTRICT AUTOMERGE Restrict Settings Homepage prior to provisioning
+2024-09-13 15:12 UTC (android_packages_apps_Settings)
+15 days ago
+Ignore fragment attr from ext authenticator resource
+2024-09-13 15:12 UTC (android_packages_apps_Settings)
+15 days ago
+Limit wifi item edit content's max length to 500
+2024-09-13 15:12 UTC (android_packages_apps_Settings)
+15 days ago
+RESTRICT AUTOMERGE Delete keystore keys from RecoveryService.rebootRecoveryWithCommand()
+2024-09-13 15:11 UTC (android_frameworks_base)
+15 days ago
+DO NOT MERGE Ignore - Sanitized uri scheme by removing scheme delimiter
+2024-09-13 15:11 UTC (android_frameworks_base)
+15 days ago
+omx: check HDR10+ info param size
+2024-09-13 15:10 UTC (android_frameworks_av)
+23 days ago
+apn: Set correct apn for `Grameenphone`
+2024-09-05 13:11 UTC (android_vendor_lineage)
+
+
+----------------------------------------------------------------------
+
 # Device LeMax2 | MaxPlus | Changelog | Fixes
 
-- Import June platform security patches - 'android-security'
-- Return back to our FP
+- Import September 2024 platform security patches - 'android-security'
 - Update changelog and configs
-- Nuke fp cleanup
-- WiFiOverlay configs for UA region
 - Small Kernel changes
 - Small thermal fixes
 - Small system fixes here and there...
 
-
 ====================
-     06-23-2024
-====================
-
-
-====================
-     06-22-2024
-====================
-
-
-   * external/hosts
-05a9ae6 Release 3.14.80
-
-====================
-     06-21-2024
-====================
-
-
-   * build/make
-1015a33 Bump Security String to 2024-06-05
-
-====================
-     06-20-2024
-====================
-
-
-====================
-     05-23-2024
-====================
-
-
-Test Updater x2 build
-
-====================
-     05-22-2024
-====================
-
-
-   * frameworks/base
-cfd74877 Prioritize system toasts
-
-====================
-     05-21-2024
-====================
-
-
-   * external/hosts
-7dc5651 Release 3.14.73
-
-====================
-     05-20-2024
-====================
-
-
-====================
-     05-19-2024
-====================
-
-
-====================
-     05-18-2024
-====================
-
-
-====================
-     05-17-2024
-====================
-
-
-====================
-     05-16-2024
-====================
-
-
-   * packages/apps/Aperture
-ba4d61e Automatic translation import
-
-   * packages/apps/Camera2
-e290e9e Automatic translation import
-
-   * packages/apps/DeskClock
-b8e55fa Automatic translation import
-
-   * packages/apps/DocumentsUI
-0458482 Automatic translation import
-
-   * packages/apps/Etar
-8fe2cb3 Automatic translation import
-
-   * packages/apps/Jelly
-45174a2 Automatic translation import
-
-   * packages/inputmethods/LatinIME
-808f4f3 Automatic translation import
-
-   * vendor/qcom/opensource/fm-commonsys
-3828520 Automatic translation import
-
-
